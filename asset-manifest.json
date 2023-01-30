@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shirts-list/static/css/main.13152fc0.css",
+    "main.js": "/shirts-list/static/js/main.b00b4f1d.js",
+    "index.html": "/shirts-list/index.html",
+    "main.13152fc0.css.map": "/shirts-list/static/css/main.13152fc0.css.map",
+    "main.b00b4f1d.js.map": "/shirts-list/static/js/main.b00b4f1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13152fc0.css",
+    "static/js/main.b00b4f1d.js"
+  ]
+}
