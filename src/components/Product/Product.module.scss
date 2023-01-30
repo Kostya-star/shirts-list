@@ -1,5 +1,8 @@
 .product {
-  img {
-    width: 300px;
+  text-align: center;
+  &__img {
+    img {
+      width: 200px;
+    }
   }
 }

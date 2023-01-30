@@ -1,24 +1,25 @@
 import { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { IProduct } from '../../types';
 import s from './Product.module.scss';
-import img from '../../assets/images/1/black_back.png'
 
 interface IProductProps {
   product: IProduct;
 }
 
 export const Product: FC<IProductProps> = ({ product }) => {
-  console.log(product);
-
+  const navigate = useNavigate();
   return (
     <div className={s.product}>
-      {product.name}
+      <h1>{product.name}</h1>
       {product.colors.map((item) => {
-        console.log(item.images);
-        
         return (
-          <div key={item.id}>
-            <img src={item.images} alt="" />
+          <div key={item.id} className={s.product__img}>
+            <img
+              onClick={() => navigate('/')}
+              src={`/${item.images[0]}`}
+              alt="t-shirt"
+            />
           </div>
         );
       })}
