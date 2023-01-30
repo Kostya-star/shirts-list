@@ -1,0 +1,25 @@
+.shirt {
+  text-align: center;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    li {
+      padding: 10px;
+      &.closed {
+        background: #ccc;
+        color: white;
+      }
+      
+      &.opened {
+        background: greenyellow;
+        color: green;
+        cursor: pointer;
+      }
+      &.active {
+        background-color: red;
+      }
+    }
+  }
+}

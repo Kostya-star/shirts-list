@@ -16,7 +16,7 @@ export const Product: FC<IProductProps> = ({ product }) => {
         return (
           <div key={item.id} className={s.product__img}>
             <img
-              onClick={() => navigate('/')}
+              onClick={() => navigate(`/shirt-details?idProduct=${product.id}&idShirt=${item.id}`)}
               src={`/${item.images[0]}`}
               alt="t-shirt"
             />

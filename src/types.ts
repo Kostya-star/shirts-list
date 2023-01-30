@@ -3,7 +3,7 @@ export interface IProductColor {
   name: string;
   images: string[];
   price: number;
-  decription: string;
+  description: string;
   sizes: number[]
 }
 
