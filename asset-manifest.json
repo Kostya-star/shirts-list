@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/shirts-list/static/css/main.13152fc0.css",
+    "main.css": "/shirts-list/static/css/main.99cc0b10.css",
     "main.js": "/shirts-list/static/js/main.b00b4f1d.js",
     "index.html": "/shirts-list/index.html",
-    "main.13152fc0.css.map": "/shirts-list/static/css/main.13152fc0.css.map",
+    "main.99cc0b10.css.map": "/shirts-list/static/css/main.99cc0b10.css.map",
     "main.b00b4f1d.js.map": "/shirts-list/static/js/main.b00b4f1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.13152fc0.css",
+    "static/css/main.99cc0b10.css",
     "static/js/main.b00b4f1d.js"
   ]
 }
