@@ -1,0 +1,1 @@
+export const baseRequest = 'https://631232c7f5cba498da8ea065.mockapi.io/products'
